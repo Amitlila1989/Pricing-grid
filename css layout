@@ -1,0 +1,32 @@
+# Pricing-grid
+@import url(./_reset.css);
+@import url(./_base.css);
+@import url(./_typography.css);
+@import url(./_base-ui.css);
+
+/* Your code here... */
+.pricing-grid{
+    /* border: 2px red solid; */
+display: flex;
+align-items: center;
+
+}
+.plan{
+    /* border: 2px wheat double; */
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    text-align: center;
+}
+.plan > *{
+    flex-basis: 100%;
+}
+h2{
+    padding-bottom: 20px;
+}
+.plan p{
+    padding: 15px;
+}
